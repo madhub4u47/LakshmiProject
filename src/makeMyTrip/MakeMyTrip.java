@@ -56,7 +56,7 @@ public class MakeMyTrip {
 		for(int k=1;k<DMonthSize;k++)
 		{
 			String DMonthEach = DMonth.get(k).getText();
-			if(DMonthEach.equals("September"))
+			if(DMonthEach.equals("September"))//
 			{
 //				DMonth.get(k).click();
 				System.out.println("Selected Month = "+ DMonthEach);
